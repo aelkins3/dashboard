@@ -1,13 +1,13 @@
 //MORALIS CODE
-(async function() {
-  const serverUrl = "https://bfj7efbtjvtt.usemoralis.com:2053/server";
-  const applicationId = "b3ejOczyFpDIqZ5KLOwkRq1koDEeggNh5BE7NT0W";
-  await Moralis.start({serverUrl,applicationId});
-})()
+// (async function() {
+//   const serverUrl = "https://bfj7efbtjvtt.usemoralis.com:2053/server";
+//   const applicationId = "b3ejOczyFpDIqZ5KLOwkRq1koDEeggNh5BE7NT0W";
+//   await Moralis.start({serverUrl,applicationId});
+// })()
 
-// const serverUrl = "https://bfj7efbtjvtt.usemoralis.com:2053/server";
-// const applicationId = "b3ejOczyFpDIqZ5KLOwkRq1koDEeggNh5BE7NT0W";
-// Moralis.start({serverUrl,applicationId});
+const serverUrl = "https://bfj7efbtjvtt.usemoralis.com:2053/server";
+const appId = "b3ejOczyFpDIqZ5KLOwkRq1koDEeggNh5BE7NT0W";
+Moralis.start({ serverUrl, appId});
 
 async function login() {
   await Moralis.authenticate();
